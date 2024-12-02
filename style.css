@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* header */
+
+header {
+  background-color: #f1f3f5;
+  padding: 10px 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 10px 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+/* colors */
+
+section {
+  border: 5px solid #f1f3f5;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+  border-top: 5px solid #f1f3f5;
+  padding-top: 20px;
+}
+
+.main-color {
+  width: 30%;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+#green {
+  background-color: #40c057;
+}
+
+#gray {
+  background-color: #9cafb7;
+}
+
+/* shades */
+
+.samples {
+  display: flex;
+}
+
+.sample {
+  flex: 1;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.shades li:nth-child(n + 6) {
+  color: #9cafb7;
+}
+
+/* Fonts */
+
+.font-roboto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.font-josefin {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.font-example li {
+  display: block;
+  padding: 5px 0;
+}
+
+.font-link {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.font-link:hover {
+  text-decoration: none;
+}
+
+/* text styles */
+
+#text .container h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#text .container h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#text .container p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-example li {
+  display: list-item;
+  margin-left: 40px;
+  line-height: 1.5em;
+}
